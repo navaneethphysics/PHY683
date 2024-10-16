@@ -1,8 +1,3 @@
-# Example of maximum-likelihood fit with iminuit version 2.
-# pdf is a mixture of Gaussian (signal) and exponential (background),
-# truncated in [xMin,xMax].
-# G. Cowan / RHUL Physics / December 2022
-
 import numpy as np
 import scipy.stats as stats
 from scipy.stats import truncexpon
